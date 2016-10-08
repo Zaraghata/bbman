@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#FF6600">
+    <title>bbman</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">bbman</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#campo">O Campo</a></li>
+                  <li><a href="#movimentacao">A Movimentação</a></li>
+                  <li><a href="#acoes">As Ações</a></li>
+                  <li><a href="#modificadores">Os Modificadores</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                  <li><a href="#campo">O Campo</a></li>
+                  <li><a href="#movimentacao">A Movimentação</a></li>
+                  <li><a href="#acoes">As Ações</a></li>
+                  <li><a href="#modificadores">Os Modificadores</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>Um jogo</span>
+            <span class="cd-words-wrapper waiting">
+                <b class="is-visible">explosivo</b>
+                <b>do barulho</b>
+                <b>do maior barato</b>
+            </span>
+        </h1>
+    </div>
+</div>
+
+<!--Intro and service-->
+<div id="regras" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h4 class="center header text_h2"> As regras estão divididas em quatro categorias: <a href="#campo">Campo</a>, <a href="#movimentacao">Movimentação</a>, <a href="#acoes">Ações</a> e <a href="#modificadores">Modificadores</a></h4>
+            </div>
+
+            <div id="campo" class="col s12 m3 l3">
+                <div class="center promo promo-example">
+                    <i class="mdi-image-grid-on"></i>
+                    <h5 class="promo-caption">O Campo</h5>
+                    <p class="light center">Um tabuleiro <span class="span_h2">11x11</span> define o campo de batalha para até <span class="span_h2">4</span> jogadores. Destes <span class="span_h2">121</span> blocos:
+                      <ul>
+                        <li><span class="span_h2">25</span> são indestrutíveis e intrasponíveis,</li>
+                        <li><span class="span_h2">12</span> são livres e</li>
+                        <li><span class="span_h2">84</span> são blocos destrutíveis.</li>
+                      </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="movimentacao" class="col s12 m3 l3">
+                <div class="center promo promo-example">
+                    <i class="mdi-action-open-with"></i>
+                    <h5 class="promo-caption">A Movimentação</h5>
+                    <p class="light center">Para se movimentar, o jogador realiza o sorteio de um número utilizando um dado de 10 faces (conhecido como <span class="span_h2">d10</span>). Tal número define a quantidade de blocos livres que o jogador poderá se mover.
+                    Além disso, sempre que o jogador estiver em uma situação de risco (quando o alcance de explosão de uma bomba puder atingí-lo), o mesmo poderá realizar um movimento de evasão, consistindo no uso de um <span class="span_h2">d4</span>. Esse movimento não é acumulativo.</p>
+                </div>
+            </div>
+            <div id="acoes" class="col s12 m3 l3">
+                <div class="center promo promo-example">
+                    <i class="mdi-social-whatshot"></i>
+                    <h5 class="promo-caption">As Ações</h5>
+                    <p class="light center">Cada jogador inicia em um dos <span class="span_h2">4</span> pontos de partida, localizado nas quinas do tabuleiro. A sequência de ações por jogador é determinado pela posição inicial, no sentido horário. O primeiro será sempre o jogador da posição superior-esquerda e o último será sempre o jogador da posição inferior-esquerda. Em sua vez, o jogador poderá realizar uma ação de <a href="#movimentacao">movimentação</a> e pelo menos uma ação de implatanção de bomba. O jogador só poderá implantar a bomba no bloco em que ele está situado. Ao implantar, o jogador deve se deslocar para uma das posições adjacentes e realizar um movimento de evasão. A bomba possui alcance de explosão de <span class="span_h2">1</span> bloco de distância da origem e destrói qualquer bloco destrutível no alcance, tornando-o livre. A bomba é acionada após o término da movimentação de evasão de todos os jogadores em risco pela explosão da mesma. Além disso, outras possíveis ações são descritas na seção <a href="#modificadores">modificadores</a>.</p>
+                </div>
+            </div>
+            <div id="modificadores" class="col s12 m3 l3">
+                <div class="center promo promo-example">
+                    <i class="mdi-image-exposure"></i>
+                    <h5 class="promo-caption">Os Modificadores</h5>
+                    <p class="light center">Existem ao todo <span class="span_h2">40</span> modifcadores de <span class="span_h2">6</span> tipos distintos que podem ser encontrados nos blocos destrutíveis pelo mapa. São eles:
+                    <ul>
+                      <hr>
+                      <li>Acelerador
+                        <i class="mdi-image-flash-on" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 8</h6></li>
+                          <li>Amplia o alcance de movimentação do jogador em <span class="span_h2">1</span>, incluindo a evasão.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                      <li>Desacelerador
+                        <i class="mdi-image-flash-off" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 8</h6></li>
+                          <li>Reduz o alcance de movimentação do jogador em <span class="span_h2">1</span>, remove em <span class="span_h2">1</span> qualquer bonificação na evasão.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                      <li>Bomba Extra
+                        <i class="mdi-image-exposure-plus-1" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 8</h6></li>
+                          <li>Amplia a quantidade de bombas a ser utilizada por rodada pelo jogador em <span class="span_h2">1</span>.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                      <li>Pólvora
+                        <i class="mdi-image-blur-on" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 10</h6></li>
+                          <li>Amplia o alcance de explosão das bombas do jogador em <span class="span_h2">2</span> blocos, na horizontal e vertical. O alcance permanece limitado pelo alvo mais próximo  atingido por cada direção.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                      <li>Repulsor
+                        <i class="mdi-hardware-keyboard-tab" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 4</h6></li>
+                          <li>Repele uma bomba adjacente à posição do jogador, na direção da posição da bomba até atingir um objeto blocante (bloco, pilar, parede, outra bomba, jogador, etc). Repelir a bomba não acionará a mesma.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                      <li>Acionador
+                        <i class="mdi-image-timer" style="font-size: 3em;"></i>
+                        <ul>
+                          <li><h8>Quantidade: 2</h6></li>
+                          <li>Permite que o jogador controle quando a última bomba implantada irá explodir. O efeito deste poder permanece no jogador mesmo quando o mesmo for eliminado. Ao implantar uma nova bomba em uma rodada posterior à última bomba implantada, a antiga bomba explodirá automaticamente.</li>
+                        </ul>
+                      </li>
+                      <hr>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="footer-copyright default_color">
+        <div class="container">
+            Design feito pelo lindo do <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Agradecimentos ao <a class="white-text" href="http://materializecss.com/">materializecss</a>
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>
